@@ -11,6 +11,7 @@ Welcome! This repository serves as a **quick reference guide** and centralized h
 Click on any topic below to jump directly to its dedicated, full-length cheat sheet:
 
 * 🐳 [Docker & Containers](./docker.md "Docker Cheat Sheet") — Container lifecycle, multi-stage builds, Docker Compose essentials, and disk cleanup.
+* 🛡️ [Linux & Bash](./linux.md "Linux & Bash Cheat Sheet") — Files, permissions, text processing, services, networking, and SSH.
 
 ---
 
