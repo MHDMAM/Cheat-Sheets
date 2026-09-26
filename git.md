@@ -1,6 +1,6 @@
 # 🛠️ Git & GitHub Cheat Sheet
 
-[← Back to Main Index](./README.md "Main Index")
+[← Back to Main Index](./README.md)
 
 Your go-to guide for local staging, branch management, remote syncing, and undoing common mistakes.
 

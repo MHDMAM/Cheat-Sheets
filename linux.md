@@ -1,6 +1,6 @@
 # 🛡️ Linux & Bash Cheat Sheet
 
-[← Back to Main Index](./README.md "Main Index")
+[← Back to Main Index](./README.md)
 
 A fast-reference guide for everyday Linux administration, file manipulation, user permissions, and network diagnostics.
 

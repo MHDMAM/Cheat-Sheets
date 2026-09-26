@@ -10,10 +10,10 @@ Welcome! This repository serves as a **quick reference guide** and centralized h
 
 Click on any topic below to jump directly to its dedicated, full-length cheat sheet:
 
-* 🐳 [Docker & Containers](./docker.md "Docker Cheat Sheet") — Container lifecycle, multi-stage builds, Docker Compose essentials, and disk cleanup.
-* 🛡️ [Linux & Bash](./linux.md "Linux & Bash Cheat Sheet") — Files, permissions, text processing, services, networking, and SSH.
-* 🛠️ [Git & GitHub](./git.md "Git & GitHub Cheat Sheet") — Config templates, branching, interactive rebases, and undo/recovery.
-* 🌐 [Kubernetes & DevOps](./k8s.md "Kubernetes & DevOps Cheat Sheet") — Pod debugging, context switching, rollouts, and Helm quickstarts.
+* 🐳 [Docker & Containers](./docker.md) — Container lifecycle, multi-stage builds, Docker Compose essentials, and disk cleanup.
+* 🛡️ [Linux & Bash](./linux.md) — Files, permissions, text processing, services, networking, and SSH.
+* 🛠️ [Git & GitHub](./git.md) — Config templates, branching, interactive rebases, and undo/recovery.
+* 🌐 [Kubernetes & DevOps](./k8s.md) — Pod debugging, context switching, rollouts, and Helm quickstarts.
 
 ---
 
@@ -64,7 +64,7 @@ Every sheet follows the same skeleton:
 ```markdown
 # <emoji> <Topic> Cheat Sheet
 
-[← Back to Main Index](./README.md "Main Index")
+[← Back to Main Index](./README.md)
 
 One-line description of what the sheet covers.
 

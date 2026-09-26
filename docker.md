@@ -1,6 +1,6 @@
 # 🐳 Docker & Docker Compose Cheat Sheet
 
-[← Back to Main Index](./README.md "Main Index")
+[← Back to Main Index](./README.md)
 
 A comprehensive guide covering everyday development operations, from container lifecycles to multi-stage builds and Docker Compose workflows.
 

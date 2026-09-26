@@ -1,6 +1,6 @@
 # 🌐 Kubernetes & DevOps Cheat Sheet
 
-[← Back to Main Index](./README.md "Main Index")
+[← Back to Main Index](./README.md)
 
 A fast-reference guide for `kubectl` workflows, pod debugging, context switching, and Helm quickstarts.
 
