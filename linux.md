@@ -58,7 +58,7 @@ A fast-reference guide for everyday Linux administration, file manipulation, use
 | `sort <file> \| uniq -c \| sort -rn` | Count duplicate lines and rank them by frequency. |
 | `<cmd> \| xargs <cmd2>` | Pass the output of one command as arguments to another. |
 
-<details>
+<details markdown="1">
 <summary>🔍 Text-processing one-liners...</summary>
 
 ```bash

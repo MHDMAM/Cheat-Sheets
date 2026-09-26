@@ -17,7 +17,7 @@ Your go-to guide for local staging, branch management, remote syncing, and undoi
 | `git config --global fetch.prune true` | Automatically remove deleted remote branches on fetch. |
 | `git config --list --show-origin` | Show every config value and the file it comes from. |
 
-<details>
+<details markdown="1">
 <summary>🔍 Handy <code>~/.gitconfig</code> template...</summary>
 
 ```ini
@@ -92,7 +92,7 @@ Your go-to guide for local staging, branch management, remote syncing, and undoi
 | `git rebase -i --autosquash <base>` | …then fold all fixup commits in automatically. |
 | `git push --force-with-lease` | Force-push rewritten history, but refuse if someone else pushed first. |
 
-<details>
+<details markdown="1">
 <summary>🔍 Interactive rebase keywords...</summary>
 
 | Keyword | Effect |

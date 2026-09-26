@@ -58,7 +58,7 @@ A fast-reference guide for `kubectl` workflows, pod debugging, context switching
 | `kubectl cp <pod>:<path> <local_path>` | Copy files out of (or into) a pod. |
 | `kubectl top pods` / `kubectl top nodes` | Show CPU and memory usage (needs metrics-server). |
 
-<details>
+<details markdown="1">
 <summary>🔍 Common pod statuses & what to check...</summary>
 
 | Status | Usual cause | Check with |
@@ -143,7 +143,7 @@ A fast-reference guide for `kubectl` workflows, pod debugging, context switching
 
 ## 📄 Manifest Templates
 
-<details>
+<details markdown="1">
 <summary>🔍 Minimal Deployment + Service...</summary>
 
 ```yaml

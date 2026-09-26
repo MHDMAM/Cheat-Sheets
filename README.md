@@ -91,9 +91,9 @@ A raw `|` breaks a table row — escape it as `\|`, even inside inline code:
 ```
 
 ### Collapsible Deep Dives
-If a section gets too complex, wrap it in a details block (leave a blank line after `</summary>` so the Markdown inside renders):
+If a section gets too complex, wrap it in a details block. Use `<details markdown="1">` (GitHub Pages ignores Markdown inside HTML blocks otherwise) and leave a blank line after `</summary>`:
 
-<details>
+<details markdown="1">
 <summary>🔍 Click to expand niche commands...</summary>
 
 ```bash
