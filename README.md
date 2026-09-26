@@ -12,6 +12,7 @@ Click on any topic below to jump directly to its dedicated, full-length cheat sh
 
 * 🐳 [Docker & Containers](./docker.md "Docker Cheat Sheet") — Container lifecycle, multi-stage builds, Docker Compose essentials, and disk cleanup.
 * 🛡️ [Linux & Bash](./linux.md "Linux & Bash Cheat Sheet") — Files, permissions, text processing, services, networking, and SSH.
+* 🛠️ [Git & GitHub](./git.md "Git & GitHub Cheat Sheet") — Config templates, branching, interactive rebases, and undo/recovery.
 
 ---
 
