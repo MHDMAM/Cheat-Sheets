@@ -17,6 +17,26 @@ Click on any topic below to jump directly to its dedicated, full-length cheat sh
 
 ---
 
+## 🗺️ Roadmap (Coming Soon)
+
+Topics queued up for future sheets:
+
+- [ ] 🗄️ **SQL & PostgreSQL** — Common queries, joins, indexes, `psql` meta-commands, backups with `pg_dump`.
+- [ ] 🐍 **Python** — venv/`uv`/pip, one-liners, comprehensions, `pytest` flags.
+- [ ] 🟨 **Node.js & npm** — npm/pnpm scripts, `nvm`, version management, publishing.
+- [ ] 🧾 **Regex** — Syntax, anchors, lookarounds, and ready-made patterns.
+- [ ] 🐚 **Bash Scripting** — Variables, loops, conditionals, `set -euo pipefail`, argument parsing.
+- [ ] ✍️ **Vim / Neovim** — Motions, text objects, macros, and search/replace.
+- [ ] 🪟 **tmux** — Sessions, windows, panes, and copy mode.
+- [ ] 🔄 **CI/CD & GitHub Actions** — Workflow syntax, caching, matrices, secrets, and the `gh` CLI.
+- [ ] 🏗️ **Terraform** — `init`/`plan`/`apply`, state management, workspaces, modules.
+- [ ] ☁️ **Cloud CLIs (AWS / Azure / GCP)** — Auth, profiles, and the everyday commands.
+- [ ] 🔏 **Networking & Security** — Ports, DNS, TLS/`openssl`, firewalls (`ufw`), `nmap`.
+- [ ] 🪟 **PowerShell & Windows** — Equivalents of the Linux sheet, `winget`, WSL tips.
+- [ ] 📐 **JSON & YAML tooling** — `jq` and `yq` filters.
+
+---
+
 ## 💡 How I Use This Repo
 
 To get the most utility out of these cheat sheets locally, you can use basic terminal utilities to query your `.md` files without leaving your IDE:
