@@ -58,7 +58,7 @@ A fast-reference guide for `kubectl` workflows, pod debugging, context switching
 | `kubectl cp <pod>:<path> <local_path>` | Copy files out of (or into) a pod. |
 | `kubectl top pods` / `kubectl top nodes` | Show CPU and memory usage (needs metrics-server). |
 
-<details markdown="1">
+<details markdown="block">
 <summary>🔍 Common pod statuses & what to check...</summary>
 
 | Status | Usual cause | Check with |
@@ -69,6 +69,7 @@ A fast-reference guide for `kubectl` workflows, pod debugging, context switching
 | `OOMKilled` | Container exceeded its memory limit. | `kubectl describe pod <pod>` → Last State |
 | `CreateContainerConfigError` | Referenced ConfigMap/Secret or key doesn't exist. | `kubectl describe pod <pod>` |
 | Running but not `Ready` | Readiness probe is failing. | `kubectl describe pod <pod>` → Events |
+
 </details>
 
 ---
@@ -143,7 +144,7 @@ A fast-reference guide for `kubectl` workflows, pod debugging, context switching
 
 ## 📄 Manifest Templates
 
-<details markdown="1">
+<details markdown="block">
 <summary>🔍 Minimal Deployment + Service...</summary>
 
 ```yaml
@@ -193,4 +194,5 @@ spec:
     - port: 80
       targetPort: 8080
 ```
+
 </details>

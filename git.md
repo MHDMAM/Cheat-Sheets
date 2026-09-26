@@ -17,7 +17,7 @@ Your go-to guide for local staging, branch management, remote syncing, and undoi
 | `git config --global fetch.prune true` | Automatically remove deleted remote branches on fetch. |
 | `git config --list --show-origin` | Show every config value and the file it comes from. |
 
-<details markdown="1">
+<details markdown="block">
 <summary>🔍 Handy <code>~/.gitconfig</code> template...</summary>
 
 ```ini
@@ -42,6 +42,7 @@ Your go-to guide for local staging, branch management, remote syncing, and undoi
     last = log -1 HEAD --stat
     undo = reset --soft HEAD~1
 ```
+
 </details>
 
 ---
@@ -92,7 +93,7 @@ Your go-to guide for local staging, branch management, remote syncing, and undoi
 | `git rebase -i --autosquash <base>` | …then fold all fixup commits in automatically. |
 | `git push --force-with-lease` | Force-push rewritten history, but refuse if someone else pushed first. |
 
-<details markdown="1">
+<details markdown="block">
 <summary>🔍 Interactive rebase keywords...</summary>
 
 | Keyword | Effect |
@@ -103,6 +104,7 @@ Your go-to guide for local staging, branch management, remote syncing, and undoi
 | `squash` | Merge into the previous commit and combine messages. |
 | `fixup` | Merge into the previous commit and discard this message. |
 | `drop` | Remove the commit entirely. |
+
 </details>
 
 ---

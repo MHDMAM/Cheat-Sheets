@@ -68,7 +68,7 @@ A comprehensive guide covering everyday development operations, from container l
 
 Build in a heavy image, ship only the output in a slim one. Keep a `.dockerignore` (e.g. `node_modules`, `.git`, `.env`) next to the Dockerfile to keep the build context small.
 
-<details markdown="1">
+<details markdown="block">
 <summary>🔍 Example multi-stage Dockerfile (Node.js)...</summary>
 
 ```dockerfile
@@ -91,6 +91,7 @@ USER node
 EXPOSE 3000
 CMD ["node", "dist/index.js"]
 ```
+
 </details>
 
 ---
@@ -114,7 +115,7 @@ CMD ["node", "dist/index.js"]
 | `docker compose config` | Validate and print the fully resolved Compose file. |
 | `docker compose -f <file> up -d` | Use a specific Compose file. |
 
-<details markdown="1">
+<details markdown="block">
 <summary>🔍 Minimal <code>compose.yaml</code> template...</summary>
 
 ```yaml
@@ -143,6 +144,7 @@ services:
 volumes:
   db-data:
 ```
+
 </details>
 
 ---
